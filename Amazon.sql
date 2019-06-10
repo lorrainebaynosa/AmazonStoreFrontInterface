@@ -23,11 +23,9 @@ VALUES
     ('yoga mat', 'exercise', 24.99, 50),
     ('compression stockings', 'clothing', 9.25, 50),
     ('yellow legal pad, 12 pads per pack', 'office', 17.50, 100),
-    ('avery two-pocket folder, box of 25', 'office', 7.50, 100),
-    ('Obagi 3 oz SPF 50 sunscreen', 'beauty', 53,00, 200),
+    ('Obagi 3 oz SPF 50 sunscreen', 'beauty', 53.00, 200),
     ('L.O.L surprise underwraps doll', 'toys', 13.88, 150),
     ('KitchenAid 4.5qt stand mixer, silver', 'kitchen', 199.99, 25),
-    ('UPOWEX resistance bands set', 'exercise', 23.99, 50),
     ('Samsung UN65RU7 flat 65in smart TV', 'electronics', 777.99, 30),
     ('Apple MacBook Pro, 13in 128GB', 'electronics', 19.99, 50),
     ('Omega Deville Ladies Watch', 'watches', 8975.00, 5);
