@@ -14,12 +14,12 @@ In mySQLWorkbench, the code for creating the products table within the bamazon d
 
 
 
-<img src="images/bamazon_products.jpg" width="400">
+<img src="images/bamazon_products.jpg" width="700">
 ![](images/bamazon_products.jpg)
 
 In mySQLWorkbench, populating the products table with products 
 
 
 
-<img src="images/bamazon_products_original_inventory.jpg" width="400">
+<img src="images/bamazon_products_original_inventory.jpg" width="700">
 ![](images/bamazon_products_original_inventory.jpg)
