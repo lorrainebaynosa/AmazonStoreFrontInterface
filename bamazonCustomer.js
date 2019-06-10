@@ -100,16 +100,16 @@ function shop() {
                         "UPDATE products SET ? WHERE ?",
                         [
                             {
-                                stock_quantity: stock_quantity - answer.units
+                                stock_quantity: chosenItem.stock_quantity - answer.units
                             },
                             {
                                 item_id: chosenItem.item_id
                             }
 
                         ],
-                        // console.log("Total cost of purchase: " + answer.units *  )
                         function (error) {
                             if (error) throw err;
+                            console.log("Total cost of purchase: " + answer.units * chosenItem.price);
                             console.log("Order placed successfully!");
                             start();
                         }
@@ -119,15 +119,4 @@ function shop() {
     });
 });
 }
-// ALEX, 
-// 1. why is stock_quantity undefined if a query is run and entire table is selected?
-// 2. for displaying cost, are we allowed to create new table with client id, purchase price for item_id, quantity purchased?
-
-// USE bamazon;
-// CREATE TABLE customers (
-//     item_id INT NOT NULL AUTO_INCREMENT,
-//     product_name VARCHAR(50) NULL,
-//     purchase_price DECIMAL(10,2) NULL,
-//     purchase_quantity INT NULL,
-//     PRIMARY KEY (item_id)
-//   );
+// ALEX, I added a prompt at the beginning to make connection end more fluid. Will I be graded down if the table isn't the 1st thing user sees?
