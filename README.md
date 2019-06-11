@@ -49,7 +49,7 @@ In order to run bamazonCustomer.js on node.js, will need to
 
 Running this application will first display a prompt asking the user if he/she would like to SHOP or EXIT (i.e., end connection to local host) followed by display of all items available for sale. Include ids, names, and prices for sale (customer view of products table). 
 The app then prompt users with two messages.
-   * The first should ask them the ID of the product they would like to buy.
+   * The first message should ask them the ID of the product they would like to buy.
    * The second message should ask how many units of the product they would like to buy.
 Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
    * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
@@ -59,7 +59,7 @@ However, if your store _does_ have enough of the product, you should fulfill the
    * Once the update goes through, show the customer the total cost of their purchase.
 
 
-The image below shows that the user has selected 5 units of  item_id 10.
+The image below shows that the user has selected 5 units of  item_id 10. The order is fulfilled because the number of units selected is equal to the stock_quantity. Cost to the customer: 44875.
 
 
 
@@ -86,6 +86,35 @@ After the purchase of five(5) Omega watches, the inventory resolves to 0:
 
 <img src="images/mySQLWorkbench_OmegaPurchase.jpg" width="800">
 ![](images/mySQLWorkbench_OmegaPurchase.jpg)
+
+
+
+
+So if we try to purchase two(2) more Omega watches, user receives the message `Insufficient quantity!`because the inventory is already at zero and prevents the order from going through (see screenshot of terminal below):
+
+
+
+
+<img src="images/OmegaDepleted.jpg" width="800">
+![](images/OmegaDepleted.jpg)
+
+
+
+
+Validating insufficient quantity when user tries to order 51 of the Apple MacBook Pros advertised at 19.99, item_id = 9, since stock_quantity is 50. Additionally, when user chooses EXIT at the prompt, the connection to the mySQL server via mySQL npm package is terminated.
+
+
+
+
+<img src="images/AppleInsufficientQuantity.jpg" width="800">
+![](images/AppleInsufficientQuantity.jpg)
+
+
+
+
+
+
+
 
 
 
