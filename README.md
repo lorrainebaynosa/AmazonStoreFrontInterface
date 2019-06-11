@@ -42,20 +42,10 @@ In order to run bamazonCustomer.js on node.js, will need to
 <img src="images/npm_dependencies.jpg" width="800">
 ![](images/npm_dependencies.jpg)
 
-
-Running this application will first display all items available for sale. Include ids, names, and prices for sale (customer view of products table).
-
-
-
-<img src="images/terminal_customerView.jpg" width="800">
-![](images/terminal_customerView.jpg)
-
-
-
-The app should then prompt users with two messages.
+Running this application will first display a prompt asking the user if he/she would like to SHOP or EXIT (i.e., end connection to local host) followed by display of all items available for sale. Include ids, names, and prices for sale (customer view of products table). 
+The app then prompt users with two messages.
    * The first should ask them the ID of the product they would like to buy.
    * The second message should ask how many units of the product they would like to buy.
-
 Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
    * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
 
@@ -64,6 +54,25 @@ However, if your store _does_ have enough of the product, you should fulfill the
    * Once the update goes through, show the customer the total cost of their purchase.
 
 
+The image below shows that the user has selected 5 units of  item_id 10.
+
+
+
+<img src="images/purchase1Omega5.jpg" width="800">
+![](images/purchase1Omega5.jpg)
+
+
+The original product inventory displayed in mySQLWorkbench appears below:
+<img src="images/mySQLWorkbench_original_inventory_customerView.jpg" width="800">
+![](images/mySQLWorkbench_original_inventory_customerView.jpg)
+
+
+
+After the purchase of five(5) Omega watches, the inventory resolves to 0: 
+
+
+<img src="images/mySQLWorkbench_Omega5purchase.jpg" width="800">
+![](images/mySQLWorkbench_Omega5purchase.jpg)
 
 
 
