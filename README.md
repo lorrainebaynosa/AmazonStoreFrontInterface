@@ -19,12 +19,15 @@ In mySQLWorkbench, the code for creating the products table within the bamazon d
 ![](images/bamazon_products.jpg)
 
 
+
+
 In mySQLWorkbench, populating the products table with products:
 
 
 
 <img src="images/bamazon_products_original_inventory.jpg" width="800">
 ![](images/bamazon_products_original_inventory.jpg)
+
 
 
 
@@ -66,12 +69,19 @@ The image below shows that the user has selected 5 units of  item_id 10.
 
 
 The original product inventory displayed in mySQLWorkbench appears below:
+
+
+
+
 <img src="images/mySQLWorkbench_original_inventory.jpg" width="800">
 ![](images/mySQLWorkbench_original_inventory.jpg)
 
 
 
+
 After the purchase of five(5) Omega watches, the inventory resolves to 0: 
+
+
 
 
 <img src="images/mySQLWorkbench_OmegaPurchase.jpg" width="800">
