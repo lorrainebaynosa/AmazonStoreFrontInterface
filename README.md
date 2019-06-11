@@ -29,9 +29,11 @@ In mySQLWorkbench, populating the products table with products:
 
 
 In mySQLWorkbench, populating the products table with products, actual display:
+
+
+
 <img src="images/bamazon_products_display_customerView.jpg" width="800">
 ![](images/bamazon_products_display_customerView.jpg)
-
 
 In order to run bamazonCustomer.js on node.js, will need to 
 1. run npm init to create package.json file with inquirer and mysql dependencies from the terminal and 
@@ -58,21 +60,22 @@ The image below shows that the user has selected 5 units of  item_id 10.
 
 
 
-<img src="images/purchase1_Omega5.jpg" width="800">
-![](images/purchase1_Omega5.jpg)
+
+<img src="images/purchase_Omega.jpg" width="800">
+![](images/purchase_Omega.jpg)
 
 
 The original product inventory displayed in mySQLWorkbench appears below:
-<img src="images/mySQLWorkbench_original_inventory_customerView.jpg" width="800">
-![](images/mySQLWorkbench_original_inventory_customerView.jpg)
+<img src="images/mySQLWorkbench_original_inventory.jpg" width="800">
+![](images/mySQLWorkbench_original_inventory.jpg)
 
 
 
 After the purchase of five(5) Omega watches, the inventory resolves to 0: 
 
 
-<img src="images/mySQLWorkbench_Omega5purchase.jpg" width="800">
-![](images/mySQLWorkbench_Omega5purchase.jpg)
+<img src="images/mySQLWorkbench_OmegaPurchase.jpg" width="800">
+![](images/mySQLWorkbench_OmegaPurchase.jpg)
 
 
 
