@@ -58,8 +58,8 @@ The image below shows that the user has selected 5 units of  item_id 10.
 
 
 
-<img src="images/purchase1Omega5.jpg" width="800">
-![](images/purchase1Omega5.jpg)
+<img src="images/purchase1_Omega5.jpg" width="800">
+![](images/purchase1_Omega5.jpg)
 
 
 The original product inventory displayed in mySQLWorkbench appears below:
