@@ -90,7 +90,7 @@ After the purchase of five(5) Omega watches, the inventory resolves to 0:
 
 
 
-So if we try to purchase two(2) more Omega watches, user receives the message `Insufficient quantity!`because the inventory is already at zero and prevents the order from going through (see screenshot of terminal below):
+So if user tries to purchase two(2) more Omega watches, user receives the message `Insufficient quantity!`because the inventory is already at zero. Order is prevented from going through (see screenshot of terminal below):
 
 
 
@@ -108,13 +108,6 @@ Validating insufficient quantity when user tries to order 51 of the Apple MacBoo
 
 <img src="images/AppleInsufficientQuantity.jpg" width="800">
 ![](images/AppleInsufficientQuantity.jpg)
-
-
-
-
-
-
-
 
 
 
