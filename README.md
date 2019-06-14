@@ -1,7 +1,7 @@
 # AmazonStoreFrontInterface
 AmazonStoreFrontInterface creates an Amazon-like storefront that takes in orders from customers and depletes stock from the store's inventory. SQL statements will be used to create the schema (structure for the database), while npm packages inquire and mysql will be used to prompt customers for answers; and query and update the database stored/displayed in MySQLworkbench, respectively. 
 
-AmazonStoreFrontInterface is a Command Line Interface(CLI) application that takes in user input and returns data. Screenshots will be displayed showing typical user flow through the application (customer and/or manager/supervisor), including prompts and responses after various selctions.
+AmazonStoreFrontInterface is a Command Line Interface(CLI) application that takes in user input and returns data. Screenshots will be displayed showing typical user flow through the application (customer), including prompts and responses after various selections.
 
 CUSTOMER VIEW: 
 Definitions for column names: 
